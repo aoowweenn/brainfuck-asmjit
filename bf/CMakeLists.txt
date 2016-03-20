@@ -7,19 +7,8 @@ endif()
 set(BF_SRC_DIR ${CMAKE_CURRENT_LIST_DIR})
 
 include_directories(
-    .
     ${BF_SRC_DIR}/../asmjit/src
 )
-
-link_directories(
-    ${BF_SRC_DIR}/../asmjit/build_makefiles_rel
-)
-
-# Linker options
-set(CMAKE_LDFLAGS "${CMAKE_LDFLAGS}  ")
-
-# Library path
-set(CMAKE_LDFLAGS "${CMAKE_LDFLAGS} -L\".\" -L\"../asmjit/build_makefiles_rel\" ")
 
 # Define the CXX sources
 set ( CXX_SRCS
