@@ -1,5 +1,9 @@
 # HOW TO BUILD
 ```sh
+$ git clone git@github.com:aoowweenn/brainfuck-asmjit.git
+$ cd brainfuck-asmjit
+$ git submodule init
+$ git submodule update
 $ mkdir build
 $ cd build
 $ cmake ..
