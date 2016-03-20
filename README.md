@@ -4,7 +4,7 @@ $ mkdir build
 $ cd build
 $ cmake ..
 ```
-**If you encounter CMAKE newer version problem, change the minimal version of your cmake in `asmjit/CMakefiles.txt`.**
+**If you encounter CMAKE newer version problem, change the minimal version of your cmake in `asmjit/CMakeLists.txt`.**
 
 # Usage
 ```sh
